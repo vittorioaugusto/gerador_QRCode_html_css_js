@@ -99,7 +99,6 @@ header p{
     transition: apacity 0.5s ease;
 }
 
-
 .footer{
     display: flex;
     flex-direction: column;
@@ -109,21 +108,3 @@ header p{
     gap: 20px;
     color: #fff;
 }
-
-.footer_icons{
-    display: flex;
-    gap: 10px;
-    color: #fff;
-}
-
-.footer_icons a{
-    color: #fff;
-}
-
-.footer_icons a:hover{
-    i{
-        animation: translateY 0.8s infinite alternate;
-        color: red;
-    }
-}
-
