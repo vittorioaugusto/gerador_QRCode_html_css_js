@@ -107,3 +107,7 @@ header p{
     gap: 20px;
     color: #fff;
 }
+
+.footer footer{
+    position: fixed;
+}
