@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,6 +13,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Gerador de Qr Code vittorioaugust</title>
 </head>
+
 <body>
     <div class="wrapper">
         <header>
@@ -24,6 +26,11 @@
                 <button>Gerar Qr Code</button>
             </div>
         </div>
+
+        <div class="download-button hidden" title="Download QR Code">
+            <a><i class="fa fa-download" aria-hidden="true"></i></a>
+        </div>
+       
         <div class="qr-code">
             <img src="" alt="qrcode" class="img">
         </div>
@@ -31,9 +38,11 @@
         <div class="wrapper_text">
             <p>Copyright© 2024 | vittorioaugusto - Todos os direitos reservados.</p>
         </div>
-        
+
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <script src="script.js"></script>
 </body>
+
 </html>
